@@ -13,17 +13,7 @@
         $stateProvider
             .state('home', {
                 url: '/',
-                views: {
-                    '': {
-                        component: 'main'
-                    },
-                    'header': {
-                        component: 'header'
-                    },
-                    'footer': {
-                        template: `<h4>This is the footer</h4>`
-                    }
-                }
+                component: 'main'
             })
     }
 
