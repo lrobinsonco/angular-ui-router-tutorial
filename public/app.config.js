@@ -29,11 +29,7 @@
                 url: 'child/',
                 component: 'child'
               })
-            .state('grandchild', {
-                url: 'grandchild/:id/',
-                parent: 'home.child',
-                component: 'grandchild'
-            })
+
     }
 
 }())
