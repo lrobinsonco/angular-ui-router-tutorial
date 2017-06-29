@@ -25,11 +25,6 @@
                     }
                 }
             })
-            .state('home.child', {
-                url: 'child/',
-                component: 'child'
-              })
-
     }
 
 }())
