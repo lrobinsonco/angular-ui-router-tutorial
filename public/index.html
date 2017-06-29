@@ -6,12 +6,18 @@
     <title>Angular UI Tutorial</title>
 </head>
 <body>
+    <div ui-view='header'></div>
     <ui-view></ui-view>
+    <div ui-view='footer'></div>
 
     <script src="angular/angular.js"></script>
     <script src="angular-ui-router/release/angular-ui-router.js"></script>
     <script src="app.module.js"></script>
     <script src="app.config.js"></script>
+    <script src="header/header.component.js"></script>
     <script src="main/main.component.js"></script>
+    <script src="child/child.component.js"></script>
+    <script src="grandchild/grandchild.component.js"></script>
+    <script src="grandchild/grandchild.controller.js"></script>
 </body>
 </html>
